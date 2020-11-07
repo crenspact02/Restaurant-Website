@@ -1,0 +1,97 @@
+body {
+	background-color: #FF8740;
+	text-align: center;
+	padding: 40px;
+	
+}
+
+.container{
+	
+	width:400px;
+	height:300px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	background-color: white;
+	
+}
+
+.inputbox i{
+	position: absolute;
+	right:35px;
+	top:20px;
+	height: 20px;
+}
+
+.inputbox{
+	position: relative;
+}
+
+.icon{
+	min-width: 25px;
+	background: white;
+	color: #FF9945;
+	text-align: center;
+	height: 39.33px;
+}
+h2{
+	color:white;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+input[type=text] {
+  
+  width: 90%;
+  padding: 10px;
+  margin: 8px 8px 7px 7px;
+  margin-right: 2px;
+  margin-left: px;
+  box-sizing: border-box;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: #FF621A;
+}
+
+.inputbox {
+	padding-bottom: ;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FF621A;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	color:#FF621A;
+}
+
+footer{
+	color:white;
+	padding-top: 50px;
+	text-align: center; 
+}
+
+button{
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	background-color: #FF4F00;
+	border-radius: 20px;
+	border: none;
+	margin-top: 20px;
+	cursor:pointer;
+	padding: 7px 50px 7px 50px;
+	/*padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 7px;
+	padding-bottom: 7px;*/
+	opacity:0.8;
+    
+}
+
+.button:hover{
+	opacity: 1;
+}
